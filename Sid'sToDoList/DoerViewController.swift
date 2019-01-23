@@ -11,11 +11,14 @@ import UIKit
 class DoerViewController: UITableViewController {
 
     var arrDoer = ["murli reading", "prepare food", "finish swift 4.2", "finish kotlin"]
+   
+    // Here all my initialization code will be kept.
     override func viewDidLoad() {
         super.viewDidLoad()
        
   
     }
+    //MARK: Here goes the tableview delegates which comes packed with uitableviewcontroller
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "DoerCell", for: indexPath)
         cell.textLabel?.text = arrDoer[indexPath.row]
