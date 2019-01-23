@@ -39,6 +39,27 @@ class DoerViewController: UITableViewController {
         }
     }
 
-
+    @IBAction func addItem(_ sender: UIBarButtonItem) {
+        
+       var textField = UITextField()
+        var alert = UIAlertController(title: "Doer", message: "", preferredStyle: .alert)
+        
+        let action = UIAlertAction(title: "Add Doer", style: .default) { (action) in
+            print("Succeed.")
+            self.arrDoer.append(textField.text!)
+            self.tableView.reloadData()
+        }
+        alert.addAction(action)
+        alert.addTextField { (alerttextField) in
+            alerttextField.placeholder = "Enter a doer."
+            textField = alerttextField
+        }
+        
+        self.present(alert, animated: true) {
+            print("Just completed presenting the alert.")
+        }
+        
+    }
+    
 }
 
