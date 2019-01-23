@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		993983B021F84EDE009D931C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993983AF21F84EDE009D931C /* AppDelegate.swift */; };
-		993983B221F84EDE009D931C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993983B121F84EDE009D931C /* ViewController.swift */; };
+		993983B221F84EDE009D931C /* DoerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993983B121F84EDE009D931C /* DoerViewController.swift */; };
 		993983B521F84EDE009D931C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993983B321F84EDE009D931C /* Main.storyboard */; };
 		993983B821F84EDE009D931C /* Sid_sToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 993983B621F84EDE009D931C /* Sid_sToDoList.xcdatamodeld */; };
 		993983BA21F84EE0009D931C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993983B921F84EE0009D931C /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		993983AC21F84EDE009D931C /* Sid'sToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sid'sToDoList.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		993983AF21F84EDE009D931C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		993983B121F84EDE009D931C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		993983B121F84EDE009D931C /* DoerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoerViewController.swift; sourceTree = "<group>"; };
 		993983B421F84EDE009D931C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		993983B721F84EDE009D931C /* Sid_sToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sid_sToDoList.xcdatamodel; sourceTree = "<group>"; };
 		993983B921F84EE0009D931C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				993983AF21F84EDE009D931C /* AppDelegate.swift */,
-				993983B121F84EDE009D931C /* ViewController.swift */,
+				993983B121F84EDE009D931C /* DoerViewController.swift */,
 				993983B321F84EDE009D931C /* Main.storyboard */,
 				993983B921F84EE0009D931C /* Assets.xcassets */,
 				993983BB21F84EE0009D931C /* LaunchScreen.storyboard */,
@@ -260,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				993983B821F84EDE009D931C /* Sid_sToDoList.xcdatamodeld in Sources */,
-				993983B221F84EDE009D931C /* ViewController.swift in Sources */,
+				993983B221F84EDE009D931C /* DoerViewController.swift in Sources */,
 				993983B021F84EDE009D931C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,7 +443,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mindartsoft.ToDoList.Sid-sToDoList";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindartsoft.ToDoList.Doer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,7 +461,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mindartsoft.ToDoList.Sid-sToDoList";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindartsoft.ToDoList.Doer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
