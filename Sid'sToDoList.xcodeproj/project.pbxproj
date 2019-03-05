@@ -15,6 +15,7 @@
 		993983BD21F84EE0009D931C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993983BB21F84EE0009D931C /* LaunchScreen.storyboard */; };
 		993983C821F84EE0009D931C /* Sid_sToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993983C721F84EE0009D931C /* Sid_sToDoListTests.swift */; };
 		993983D321F84EE0009D931C /* Sid_sToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993983D221F84EE0009D931C /* Sid_sToDoListUITests.swift */; };
+		99C5D69D220BF7030033BAA0 /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C5D69C220BF7030033BAA0 /* ExtensionString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		993983CE21F84EE0009D931C /* Sid'sToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sid'sToDoListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		993983D221F84EE0009D931C /* Sid_sToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sid_sToDoListUITests.swift; sourceTree = "<group>"; };
 		993983D421F84EE0009D931C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C5D69C220BF7030033BAA0 /* ExtensionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				993983AF21F84EDE009D931C /* AppDelegate.swift */,
+				99C5D69C220BF7030033BAA0 /* ExtensionString.swift */,
 				993983B121F84EDE009D931C /* DoerViewController.swift */,
 				993983B321F84EDE009D931C /* Main.storyboard */,
 				993983B921F84EE0009D931C /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99C5D69D220BF7030033BAA0 /* ExtensionString.swift in Sources */,
 				993983B821F84EDE009D931C /* Sid_sToDoList.xcdatamodeld in Sources */,
 				993983B221F84EDE009D931C /* DoerViewController.swift in Sources */,
 				993983B021F84EDE009D931C /* AppDelegate.swift in Sources */,
